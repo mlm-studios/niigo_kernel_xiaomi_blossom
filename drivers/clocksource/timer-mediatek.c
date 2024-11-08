@@ -334,7 +334,7 @@ static int __init mtk_syst_init(struct device_node *node)
 
 	clockevents_config_and_register(&to.clkevt, timer_of_rate(&to),
 					TIMER_SYNC_TICKS, 0xffffffff);
-	pr_info("[ame_dbg] mtk_syst_init: timer_of_rate(&to): %s",timer_of_rate(&to))
+	pr_info("[ame_dbg] mtk_syst_init: timer_of_rate(&to): %s",timer_of_rate(&to));
 
 	return 0;
 }
