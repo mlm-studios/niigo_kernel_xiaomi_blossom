@@ -12,7 +12,7 @@ echo "Using clang."
 export LLVM=1
 CC=clang
 LLVM_IAS=1
-CLANG_TRIPLE="aarch64-linux-gnu-"
+export CLANG_TRIPLE="aarch64-linux-gnu-"
 #fi
 
 if [ ! -d "../aarch64-linux-android-4.9" ]; then
