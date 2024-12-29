@@ -63,7 +63,6 @@ jobs:
         sudo apt update
         sudo apt-get install git bison flex libssl-dev python3 python2.7 python2
         sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
-        sudo update-alternatives --install /usr/bin/env/python2 python /usr/bin/python2.7 1
         sudo update-alternatives --set python /usr/bin/python2.7
 
     - name: Download gcc
