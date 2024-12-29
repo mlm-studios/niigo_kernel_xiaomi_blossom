@@ -69,6 +69,13 @@ jobs:
       run: |
         git clone https://github.com/djb77/aarch64-linux-android-4.9 ../aarch64-linux-android-4.9
 
+    - name: Install LLVM and Clang
+      run: |
+        wget https://apt.llvm.org/llvm.sh
+        chmod +x llvm.sh
+        sudo ./llvm.sh 14 # or whatever version you need
+        sudo apt-get install -y clang-14 lld-14 llvm-14
+
     - name: Add ksu and build kernel
       run: |
         curl -LSs "https://raw.githubusercontent.com/mlm-games/KernelSU-Non-GKI/main/kernel/setup-subm.sh" | bash -s 
