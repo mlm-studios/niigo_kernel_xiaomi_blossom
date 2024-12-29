@@ -7,10 +7,12 @@ echo "Error: Enter the defconfig"
 exit
 fi
 
-# if [ -z "$2" == --clang ]; then
-# echo "Using clang."
-# export LLVM=1
-# fi
+#if [ -z "$2" == --clang ]; then
+echo "Using clang."
+export LLVM=1
+CC=clang
+LLVM_IAS=1
+#fi
 
 if [ ! -d "../aarch64-linux-android-4.9" ]; then
 echo "GCC toolchain not avaliable at $../aarch64-linux-android-4.9"
