@@ -65,7 +65,7 @@ jobs:
         sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
         sudo update-alternatives --set python /usr/bin/python2.7
         sudo ln -s -f /usr/bin /usr/bin/env
-        chmod 0777 -R /usr/bin/env
+        sudo chmod 0777 -R /usr/bin/env
 
     - name: Download gcc
       run: |
