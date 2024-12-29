@@ -73,7 +73,7 @@ jobs:
       run: |
         curl -LSs "https://raw.githubusercontent.com/mlm-games/KernelSU-Non-GKI/main/kernel/setup-subm.sh" | bash -s 
         python3 KernelSU/scripts/integrate-no-kprobe.py ${{ env.DEFCONFIG }}
-        ./build_kernel.sh ${{ env.DEFCONFIG }}
+        bash build_kernel.sh ${{ env.DEFCONFIG }}
     
     
     - name: Creating AnyKernel3 zip
