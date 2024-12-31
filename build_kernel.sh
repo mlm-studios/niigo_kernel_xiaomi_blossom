@@ -10,8 +10,8 @@ fi
 #if [ -z "$2" == --clang ]; then
 echo "Using clang."
 export LLVM=1
-CC=clang
-LLVM_IAS=1
+export CC=clang
+export LLVM_IAS=1
 export CLANG_TRIPLE="aarch64-linux-gnu-"
 #fi
 
@@ -25,6 +25,7 @@ rm -rf out && mkdir out
 make clean && make mrproper
 
 export CROSS_COMPILE="$(pwd)/../aarch64-linux-android-4.9/bin/aarch64-linux-android-"
+export CROSS_COMPILE_ARM32=arm-linux-androideabi-
 export ARCH=arm64
 export O=out
 
