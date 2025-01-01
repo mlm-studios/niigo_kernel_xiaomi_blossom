@@ -22,8 +22,8 @@
 
 #include <linux/uaccess.h>
 #include <linux/export.h>
-#define CREATE_TRACE_POINTS
-#include <mtk-pm-qos-trace.h>
+//#define CREATE_TRACE_POINTS
+#include "mtk-pm-qos-trace.h"
 
 struct mtk_pm_qos_object {
 	struct pm_qos_constraints *constraints;

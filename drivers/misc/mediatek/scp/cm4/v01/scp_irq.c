@@ -8,11 +8,11 @@
 #include <linux/io.h>
 #include <linux/slab.h>
 #include <linux/spinlock.h>
-#include "scp_ipi.h"
-#include "scp_helper.h"
-#include "scp_excep.h"
-#include "scp_dvfs.h"
-#include "scp_feature_define.h"
+#include "../scp_ipi.h"
+#include "../scp_helper.h"
+#include "../scp_excep.h"
+#include "../scp_dvfs.h"
+#include "../scp_feature_define.h"
 #if IS_ENABLED(CONFIG_MTK_AEE_FEATURE)
 #include <mt-plat/aee.h>
 #endif

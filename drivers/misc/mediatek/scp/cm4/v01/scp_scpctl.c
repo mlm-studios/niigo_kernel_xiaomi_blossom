@@ -4,8 +4,8 @@
  */
 
 #include <linux/device.h>       /* needed by device_* */
-#include "scp_ipi.h"
-#include "scp_scpctl.h"
+#include "../scp_ipi.h"
+#include "../scp_scpctl.h"
 
 /*
  * A device node to send commands to scp wit unified interface

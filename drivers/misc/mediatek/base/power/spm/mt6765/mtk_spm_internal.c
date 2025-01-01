@@ -7,7 +7,8 @@
 #include <linux/module.h>
 #include <linux/random.h>
 #include <asm/setup.h>
-#include <mtk_spm_internal.h>
+#include "mtk_spm_internal.h"
+#include "mtk_spm_reg.h"
 #include <mtk_power_gs_api.h>
 
 #define WORLD_CLK_CNTCV_L        (0x10017008)

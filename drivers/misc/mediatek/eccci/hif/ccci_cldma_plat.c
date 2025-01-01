@@ -31,9 +31,9 @@
 #include <linux/clk.h>
 
 #include "ccci_config.h"
-#include "ccci_common_config.h"
+#include "../ccci_common_config.h"
 #include "ccci_core.h"
-#include "modem_sys.h"
+#include "../modem_sys.h"
 #include "ccci_bm.h"
 #include "ccci_hif_cldma.h"
 #include "md_sys1_platform.h"

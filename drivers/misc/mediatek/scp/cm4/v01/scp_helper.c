@@ -28,18 +28,18 @@
 #include <linux/uaccess.h>      /* needed by copy_to_user */
 #include <linux/vmalloc.h>      /* needed by vmalloc */
 #include <mt-plat/aee.h>
-#include "scp_dvfs.h"
+#include "../scp_dvfs.h"
 #include "scp_err_info.h"
-#include "scp_ipi.h"
-#include "scp_helper.h"
-#include "scp_excep.h"
-#include "scp_feature_define.h"
-#include "scp_scpctl.h"
+#include "../scp_ipi.h"
+#include "../scp_helper.h"
+#include "../scp_excep.h"
+#include "../scp_feature_define.h"
+#include "../scp_scpctl.h"
 #include "mtk_spm_resource_req.h"
 
 #ifdef CONFIG_OF_RESERVED_MEM
 #include <linux/of_reserved_mem.h>
-#include "scp_reservedmem_define.h"
+#include "../scp_reservedmem_define.h"
 #endif
 
 #if ENABLE_SCP_EMI_PROTECTION

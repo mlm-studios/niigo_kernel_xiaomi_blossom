@@ -13,7 +13,7 @@
 #include <linux/of_irq.h>
 #include <linux/printk.h>
 
-#include <mt_emi.h>
+#include "mt6765/mt_emi.h"
 #include "elm_v1.h"
 
 static bool elm_enabled;

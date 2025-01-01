@@ -7,7 +7,7 @@
 #ifndef __CCIF_HIF_PLATFORM_H__
 #define __CCIF_HIF_PLATFORM_H__
 #include "ccci_config.h"
-#include "ccci_common_config.h"
+#include "../ccci_common_config.h"
 #include <mt-plat/sync_write.h>
 
 extern unsigned int devapc_check_flag;

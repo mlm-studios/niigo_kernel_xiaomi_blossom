@@ -5,9 +5,9 @@
 
 #include <linux/mutex.h>
 #include <linux/io.h>
-#include "scp_ipi.h"
-#include "scp_helper.h"
-#include "scp_excep.h"
+#include "../scp_ipi.h"
+#include "../scp_helper.h"
+#include "../scp_excep.h"
 
 #define PRINT_THRESHOLD 10000
 enum ipi_id scp_ipi_id_record;

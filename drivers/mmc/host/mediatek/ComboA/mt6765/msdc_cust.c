@@ -22,8 +22,8 @@
 #include <linux/regmap.h>
 #include <linux/mfd/syscon.h>
 
-#include "mtk_sd.h"
-#include "dbg.h"
+#include "../mtk_sd.h"
+#include "../dbg.h"
 //#include "include/pmic_api_buck.h"
 
 #if defined(CONFIG_MTK_PMIC_WRAP)

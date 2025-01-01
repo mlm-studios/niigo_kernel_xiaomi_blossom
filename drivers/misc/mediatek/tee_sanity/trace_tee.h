@@ -11,7 +11,7 @@
 
 #include <linux/types.h>
 #include <linux/tracepoint.h>
-#include <tee_sanity.h>
+#include "tee_sanity.h"
 
 TRACE_EVENT(tee_sched_start,
 	TP_PROTO(struct tee_trace_struct *p),

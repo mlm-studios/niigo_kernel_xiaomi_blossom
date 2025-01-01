@@ -17,13 +17,13 @@
 #include <linux/proc_fs.h>
 #include <linux/uaccess.h>
 #include <linux/soc/mediatek/mtk_sip_svc.h>
-#include <tee_sanity.h>
+#include "tee_sanity.h"
 #include <linux/sched/clock.h>
 #include <archcounter_timesync.h>
 #include <asm/arch_timer.h>
 
-#define CREATE_TRACE_POINTS
-#include <trace_tee.h>
+//#define CREATE_TRACE_POINTS
+#include "trace_tee.h"
 
 static u64 boot_to_kernel_ns;
 

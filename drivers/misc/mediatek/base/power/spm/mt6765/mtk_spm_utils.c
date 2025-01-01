@@ -11,8 +11,10 @@
 #include <linux/of_device.h>
 #include <asm/setup.h>
 
-#include <mtk_spm_internal.h>
-#include <mtk_spm_suspend_internal.h>
+#include "sleep_def.h"
+#include "mtk_spm_reg.h"
+#include "mtk_spm_internal.h"
+#include "mtk_spm_suspend_internal.h"
 
 static int local_spm_load_firmware_status = 1;
 int spm_load_firmware_status(void)

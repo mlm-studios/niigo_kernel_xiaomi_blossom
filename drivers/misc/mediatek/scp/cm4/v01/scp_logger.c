@@ -16,8 +16,8 @@
 #include <linux/delay.h>
 #include <linux/io.h>
 
-#include "scp_ipi.h"
-#include "scp_helper.h"
+#include "../scp_ipi.h"
+#include "../scp_helper.h"
 
 #define DRAM_BUF_LEN				(1 * 1024 * 1024)
 #define SCP_TIMER_TIMEOUT	        (1 * HZ) /* 1 seconds*/

@@ -12,8 +12,8 @@
 #include "ff_err.h"
 #include "ff_spi.h"
 #include "ff_chip.h"
-#include <teei_fp.h>
-#include <tee_client_api.h>
+#include "teei_fp.h"
+#include "tee_client_api.h"
 //#include "../fp_drv/fp_drv.h"
 # undef LOG_TAG
 #define LOG_TAG "focaltech:ft9348"

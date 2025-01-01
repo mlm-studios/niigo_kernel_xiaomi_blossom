@@ -6,9 +6,11 @@
 #include <linux/init.h>
 #include <linux/module.h>
 #include <linux/kernel.h>
-
-#include <mtk_spm_internal.h>
+//#include <linux/spinlock.h>
+#include "mtk_spm_reg.h"
+#include "mtk_spm_internal.h"
 #include "mtk_sspm.h"
+//#include "mtk_spm.h"
 
 static twam_handler_t spm_twam_handler;
 static unsigned int idle_sel;

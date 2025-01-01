@@ -34,7 +34,7 @@
 
 #ifndef CCCI_KMODULE_ENABLE
 #include "ccci_core.h"
-#include "modem_sys.h"
+#include "../modem_sys.h"
 #include "ccci_bm.h"
 #include "ccci_platform.h"
 #include "ccci_hif_dpmaif.h"

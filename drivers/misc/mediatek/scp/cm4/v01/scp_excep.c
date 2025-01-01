@@ -15,11 +15,11 @@
 #include <linux/sched_clock.h>
 #include <linux/ratelimit.h>
 #include <linux/delay.h>
-#include "scp_ipi.h"
-#include "scp_helper.h"
-#include "scp_excep.h"
-#include "scp_feature_define.h"
-#include "scp_l1c.h"
+#include "../scp_ipi.h"
+#include "../scp_helper.h"
+#include "../scp_excep.h"
+#include "../scp_feature_define.h"
+#include "../scp_l1c.h"
 
 struct scp_aed_cfg {
 	int *log;

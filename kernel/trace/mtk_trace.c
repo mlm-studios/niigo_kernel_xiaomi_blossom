@@ -6,7 +6,7 @@
 #include <linux/ring_buffer.h>
 #include <linux/trace_events.h>
 #define CREATE_TRACE_POINTS
-#include "mtk_ftrace.h"
+#include <trace/events/mtk_ftrace.h>
 #include "trace.h"
 
 

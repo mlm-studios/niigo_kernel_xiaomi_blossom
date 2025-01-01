@@ -29,6 +29,9 @@
 #include <mtk_mcdi_api.h>
 
 #include <mtk_lp_dts.h>
+
+#include "sleep_def.h"
+// #include "pcm_def.h"
 static DEFINE_SPINLOCK(slp_lock);
 
 unsigned long slp_dp_cnt[NR_CPUS] = {0};

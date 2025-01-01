@@ -13,7 +13,7 @@
 #include <linux/of_address.h>
 #include <linux/module.h>
 #include "ccci_config.h"
-#include "ccci_common_config.h"
+#include "../ccci_common_config.h"
 #include <linux/clk.h>
 #include <mtk_pbm.h>
 //#include <mtk_clkbuf_ctl.h>

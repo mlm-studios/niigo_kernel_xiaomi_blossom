@@ -11,11 +11,11 @@
 #include <linux/sysfs.h>
 #include <linux/vmalloc.h>		 /* needed by vmalloc */
 #include <linux/workqueue.h>
-#include "scp_ipi.h"
-#include "scp_helper.h"
-#include "scp_excep.h"
-#include "scp_feature_define.h"
-#include "scp_l1c.h"
+#include "../scp_ipi.h"
+#include "../scp_helper.h"
+#include "../scp_excep.h"
+#include "../scp_feature_define.h"
+#include "../scp_l1c.h"
 #if IS_ENABLED(CONFIG_MTK_AEE_FEATURE)
 #include <mt-plat/aee.h>
 #endif

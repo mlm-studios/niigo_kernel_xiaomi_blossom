@@ -12,8 +12,8 @@
 #include <mt-plat/upmu_common.h>
 #endif
 
-#include <mtk_spm_internal.h>
-#include <mtk_spm_suspend_internal.h>
+#include "mtk_spm_internal.h"
+#include "mtk_spm_suspend_internal.h"
 
 #ifdef CONFIG_MTK_TINYSYS_SSPM_SUPPORT
 #include <sspm_define.h>
@@ -21,7 +21,8 @@
 #endif
 
 #include <mtk_power_gs_api.h>
-#include <mtk_sspm.h>
+#include "mtk_sspm.h"
+#include "mtk_spm_reg.h"
 
 #define WORLD_CLK_CNTCV_L        (0x10017008)
 #define WORLD_CLK_CNTCV_H        (0x1001700C)

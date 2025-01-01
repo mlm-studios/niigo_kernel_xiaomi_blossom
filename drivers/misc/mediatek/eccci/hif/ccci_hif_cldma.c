@@ -34,9 +34,9 @@
 #include <linux/clk.h>
 
 #include "ccci_config.h"
-#include "ccci_common_config.h"
+#include "../ccci_common_config.h"
 #include "ccci_core.h"
-#include "modem_sys.h"
+#include "../modem_sys.h"
 #include "ccci_bm.h"
 #include "ccci_hif_cldma.h"
 #include "md_sys1_platform.h"
@@ -46,10 +46,10 @@
 #include "ccci_port.h"
 #include "ccci_cldma_plat.h"
 
-#if defined(CLDMA_TRACE) || defined(CCCI_SKB_TRACE)
-#define CREATE_TRACE_POINTS
+// #if defined(CLDMA_TRACE) || defined(CCCI_SKB_TRACE)
+// #define CREATE_TRACE_POINTS
 #include "modem_cldma_events.h"
-#endif
+// #endif
 unsigned int trace_sample_time = 200000000;
 
 /* CLDMA setting */

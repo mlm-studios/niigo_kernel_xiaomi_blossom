@@ -1,10 +1,10 @@
 #define LOG_TAG         "Oem"
 
-#include "cts_config.h"
-#include "cts_platform.h"
-#include "cts_core.h"
-#include "cts_oem.h"
-#include "cts_test.h"
+#include "../cts_config.h"
+#include "../cts_platform.h"
+#include "../cts_core.h"
+#include "../cts_oem.h"
+#include "../cts_test.h"
 
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>

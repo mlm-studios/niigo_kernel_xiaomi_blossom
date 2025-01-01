@@ -7,9 +7,9 @@
 #ifndef __DDP_COLOR_H__
 #define __DDP_COLOR_H__
 
-#include "ddp_reg.h"
+#include "../dispsys/ddp_reg.h"
 #include "ddp_aal.h"
-#include "ddp_drv.h"
+#include "../dispsys/ddp_drv.h"
 enum {
 	ENUM_Y_SLOPE = 0 * 28,
 

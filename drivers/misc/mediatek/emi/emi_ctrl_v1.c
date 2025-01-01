@@ -14,7 +14,7 @@
 #include <linux/proc_fs.h>
 #include <linux/seq_file.h>
 
-#include <mt_emi.h>
+#include "mt6765/mt_emi.h"
 #include "emi_ctrl_v1.h"
 
 static void __iomem *CEN_EMI_BASE;

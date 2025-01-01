@@ -10,8 +10,8 @@
 #include <linux/fs.h>
 
 #include "autok_dvfs.h"
-#include "mtk_sd.h"
-#include "dbg.h"
+#include "../mtk_sd.h"
+#include "../dbg.h"
 #include <mmc/core/sdio_ops.h>
 #include <mmc/core/core.h>
 #include <mmc/core/mmc_ops.h>

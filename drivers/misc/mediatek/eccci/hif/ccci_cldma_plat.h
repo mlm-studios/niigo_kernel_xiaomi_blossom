@@ -15,10 +15,10 @@
 #include "mt-plat/mtk_ccci_common.h"
 
 #include "ccci_config.h"
-#include "ccci_common_config.h"
+#include "../ccci_common_config.h"
 #include "ccci_bm.h"
 #include "ccci_hif_internal.h"
-#include "modem_sys.h"
+#include "../modem_sys.h"
 
 #include "md_sys1_platform.h"
 

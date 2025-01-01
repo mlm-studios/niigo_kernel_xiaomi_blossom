@@ -7,7 +7,7 @@
 #define __M4U_V2_H__
 #include <linux/ioctl.h>
 #include <linux/fs.h>
-#include "m4u_port.h"
+#include "../mt6765/m4u_port.h"
 #include <linux/scatterlist.h>
 #include "m4u_v2_ext.h"
 

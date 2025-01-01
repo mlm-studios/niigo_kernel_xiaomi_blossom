@@ -26,7 +26,8 @@
 #include <mt-plat/mtk_chip.h>
 #include <mt-plat/aee.h>
 
-#include <dramc_io.h>
+#include "dramc_io.h"
+
 #include "mtk_dramc.h"
 #include "dramc.h"
 

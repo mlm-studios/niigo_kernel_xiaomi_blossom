@@ -9,7 +9,7 @@
 #include <linux/spi/spi.h>
 #include <linux/clk.h>
 #include <linux/platform_data/spi-mt65xx.h>
-#include <spi-mt65xx-dev.h>
+#include "spi-mt65xx-dev.h"
 
 static bool spi_auto_test_flag;
 

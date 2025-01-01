@@ -40,7 +40,7 @@
 #include "smi_pmqos.h"
 #include "smi_public.h"
 
-#define CREATE_TRACE_POINTS
+// #define CREATE_TRACE_POINTS
 #include "mmdvfs_events.h"
 
 #include <linux/soc/mediatek/mtk_dvfsrc.h>
